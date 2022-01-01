@@ -1,0 +1,1 @@
+{"codResposta":400,	"respostaJson":'{  \"campos\": [    \"Erro mensagem 400, primeira mensagem campo Erro mensagem 400, primeira mensagem campo\",\"Erro mensagem 400, segunda mensagem campo Erro mensagem 400, segunda mensagem campo\"  ],  \"codigo\": 0}'}

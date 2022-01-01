@@ -1,0 +1,12 @@
+version: '2'
+services:
+  postgres:
+    image: ajss/postgres-10.4.2:latest
+    hostname: postgres
+    container_name: postgres
+    privileged: true
+    ports:
+      - "10020:20"
+      - "10021:21"
+      - "10022:22"
+      - "10032:5432"

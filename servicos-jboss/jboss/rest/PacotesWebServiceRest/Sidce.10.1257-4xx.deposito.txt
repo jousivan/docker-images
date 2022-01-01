@@ -1,0 +1,1 @@
+{"codResposta":500,	"respostaJson":'{  \"erro\": \"string\",  \"message\": \"Mensagem de erro 4XX deu ruim\",  \"path\": \"string\",  \"status\": 0,  \"timestamp\": \"2020-04-27T14:33:01.275Z\"}'}

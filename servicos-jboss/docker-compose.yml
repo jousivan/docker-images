@@ -1,0 +1,52 @@
+version: '2'
+networks:
+  caixa:
+    driver: bridge
+services:
+  servico-jboss:
+    image: servicos-jboss:7
+    hostname: servico-jboss
+    container_name: servico-jboss
+#   volumes:
+#      - ./volumes/servico-jboss/rest/deployments:/opt/jboss-eap-7.1/rest/deployments
+#      - ./volumes/servico-jboss/rest/PacotesWebServiceRest:/home/servico-jboss/PacotesWebServiceRest
+#      - ./volumes/servico-jboss/logs:/home/servico-jboss/logs
+    networks:
+      - caixa
+    privileged: true
+    ports:
+      - "20:20"
+      - "21:21"
+      - "22:22"
+      - "4447:4447"
+      - "8009:8009"
+      - "8080:8080"
+      - "8443:8443"
+      - "8787:8787"
+      - "9990:9990"
+      - "9704:9704"
+      - "19990:19990"
+      - "18009:18009"
+      - "18080:18080"
+      - "18443:18443"
+      - "18787:18787"
+      - "19704:19704"
+      - "29990:29990"
+      - "28009:28009"
+      - "28080:28080"
+      - "28443:28443"
+      - "28787:28787"
+      - "29704:29704"
+      - "39990:39990"
+      - "38009:38009"
+      - "38080:38080"
+      - "38443:38443"
+      - "38787:38787"
+      - "39704:39704"
+    environment:
+      - BANCO_DADOS_HOST=database
+      - BANCO_DADOS_PORTA=5432
+      - BANCO_DADOS_USUARIO_ASSINADOR=
+      - BANCO_DADOS_SENHA_ASSINADOR=
+    depends_on:
+      - database

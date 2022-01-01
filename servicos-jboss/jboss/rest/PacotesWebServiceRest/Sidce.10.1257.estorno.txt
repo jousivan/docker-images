@@ -1,0 +1,2 @@
+{"codResposta":500,	"respostaJson":'{  \"erro\": \"string\",  \"message\": \"Mensagem de erro teste demanda DCE, retornos 401,403,404,422 e 500.\",  \"path\": \"string\",  \"status\": 0,  \"timestamp\": \"2020-04-27T14:33:01.275Z\"}'}
+

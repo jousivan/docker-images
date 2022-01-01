@@ -1,0 +1,1 @@
+{"nuAgenciaMovimentacao":949,"coProtocolo":"100507346818112500022","qtServicoPrestados":1,"nuSL":1,"vrGuia":5.70,"dtEfetiva":20180418,"tsResposta":null,"coMatriculaRequerente":"C891034","noSegmento":null,"coRetorno":0,"deRetorno":"Consulta Realizada com Sucesso"}

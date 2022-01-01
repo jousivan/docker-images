@@ -1,0 +1,1 @@
+{"code":200,"guiaPagamento":{"coAgenciaDestino":"00108","coAgenciaMovimento":"39659","coCentroCusto":"64025","coEvento":"007390","coProduto":"00000","dhRetorno":"20200311113922","dv":0,"indicadorRegistro":5,"numeroDocumento":"30007265201900017","situacao":"DISPONIVEL","situacaoLancamento":1,"valorDocumento":1200},"msg": "TRANSACAO EFETUADA COM SUCESSO","temErro":false}

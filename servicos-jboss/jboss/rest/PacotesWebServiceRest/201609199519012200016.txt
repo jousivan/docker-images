@@ -1,0 +1,1 @@
+{"nuAgenciaMovimentacao":2016,"coProtocolo":"201609199519012200016","qtServicoPrestados":1,"nuSL":2,"vrGuia":13520.00,"dtEfetiva":1548122400000,"tsResposta":null,"coMatriculaRequerente":"C040292","noSegmento":"SISAG","coRetorno":0,"deRetorno":"Consulta Realizada com Sucesso"}

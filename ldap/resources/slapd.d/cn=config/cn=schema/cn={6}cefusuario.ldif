@@ -1,0 +1,51 @@
+dn: cn={6}cefusuario
+objectClass: olcSchemaConfig
+cn: {6}cefusuario
+olcAttributeTypes: {0}( 2.16.840.1.113730.3.999.1 NAME 'CO-CARGO' DESC 'RFC279
+ 8: preferred name to be used when displaying entries' EQUALITY caseIgnoreMatc
+ h SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {1}( 2.16.840.1.113730.3.999.2 NAME 'NO-CARGO' DESC 'RFC279
+ 8: preferred name to be used when displaying entries' EQUALITY caseIgnoreMatc
+ h SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {2}( 2.16.840.1.113730.3.999.3 NAME 'NU-FUNCAO' DESC 'RFC27
+ 98: preferred name to be used when displaying entries' EQUALITY caseIgnoreMat
+ ch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {3}( 2.16.840.1.113730.3.999.4 NAME 'NO-FUNCAO' DESC 'RFC27
+ 98: preferred name to be used when displaying entries' EQUALITY caseIgnoreMat
+ ch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {4}( 2.16.840.1.113730.3.999.5 NAME 'CO-UNIDADE' DESC 'RFC2
+ 798: preferred name to be used when displaying entries' EQUALITY caseIgnoreMa
+ tch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {5}( 2.16.840.1.113730.3.999.6 NAME 'NU-CPF' DESC 'RFC2798:
+  preferred name to be used when displaying entries' EQUALITY caseIgnoreMatch 
+ SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {6}( 2.16.840.1.113730.3.999.7 NAME 'NO-USUARIO' DESC 'RFC2
+ 798: preferred name to be used when displaying entries' EQUALITY caseIgnoreMa
+ tch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: {7}( 2.16.840.1.113730.3.999.8 NAME 'NU-LOTACAOFISICA' DESC
+  'RFC2798: preferred name to be used when displaying entries' EQUALITY caseIg
+ noreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.
+ 15 )
+olcAttributeTypes: {8}( 2.16.840.1.113730.3.999.9 NAME 'NO-LOTACAOFISICA' DESC
+  'RFC2798: preferred name to be used when displaying entries' EQUALITY caseIg
+ noreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.
+ 15 )
+olcAttributeTypes: {9}( 2.16.840.1.113730.3.999.10 NAME 'UF-LOTACAOFISICA' DES
+ C 'RFC2798: preferred name to be used when displaying entries' EQUALITY caseI
+ gnoreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1
+ .15 )
+olcAttributeTypes: {9}( 2.16.840.1.113730.3.999.11 NAME 'nsaccountlock' DES
+ C 'RFC2798: preferred name to be used when displaying entries' EQUALITY caseI
+ gnoreMatch SUBSTR caseIgnoreSubstringsMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1
+ .15 )
+olcObjectClasses: {0}( 2.16.840.1.113730.3.998.1 NAME 'cefusuario' DESC 'RFC27
+ 98: Internet Organizational Person' SUP inetOrgPerson STRUCTURAL MAY ( CO-CAR
+ GO $ NO-CARGO $ NU-FUNCAO $ NO-FUNCAO $ CO-UNIDADE $ NU-CPF $ NO-USUARIO $ NU
+ -LOTACAOFISICA $ NO-LOTACAOFISICA $ UF-LOTACAOFISICA $ nsaccountlock) )
+structuralObjectClass: olcSchemaConfig
+entryUUID: 0f5e5028-00a8-1035-8f35-699ab9b0457c
+creatorsName: cn=config
+createTimestamp: 20151006185905Z
+entryCSN: 20151006185905.299051Z#000000#000#000000
+modifiersName: cn=config
+modifyTimestamp: 20151006185905Z

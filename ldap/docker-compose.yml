@@ -1,0 +1,19 @@
+version: '2'
+services:
+  ldap:    
+    image: dockerrepo.foton.la:5000/cxa/ldap:latest
+    container_name: ldap
+    hostname: ldap
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "1022:22"
+      - "10389:389"
+      - "10636:636"
+    environment:
+      - SLAPD_PASSWORD=secret

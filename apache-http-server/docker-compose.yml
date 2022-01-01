@@ -1,0 +1,12 @@
+version: '2'
+services:
+  apache-http-server:
+    image: ajss/apache-http-server:latest
+    hostname: apache-http-server
+    container_name: apache-http-server
+    ports:
+      - "22"
+      #
+      # Porta Virtual Host do JBoss.
+      - "80"
+      - "443"

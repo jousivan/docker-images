@@ -1,0 +1,1 @@
+{"codResposta":401,	"respostaJson":'{  \"erro\": \"string\",  \"message\": \"string\",  \"path\": \"string\",  \"status\": 0,  \"timestamp\": \"2020-04-27T14:33:01.275Z\"}'}
